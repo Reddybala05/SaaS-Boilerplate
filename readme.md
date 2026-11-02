@@ -6,16 +6,7 @@ Using a Django saas boilerplate can save you a lot of time, which is a huge bene
 
 This boilerplate can help you save hours of work, allowing you to focus on core functionality of your  SaaS instead of spending a lot of time on setting up stripe, blog, login functionalities and landing page.
 
-**#CodeLessShipMore**
 
-### Want me to help you supercharge your Django SaaS development?
-Contact me [here](https://tally.so/r/woO0Kx)
-
-### Want to help me write more open-source?
-
-Consider buying me a coffee
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L612WN7K)
 
 ### who is this boilerplate suitable for?
 * Reduce repetitive parts and focus on functionality.
@@ -25,7 +16,7 @@ Consider buying me a coffee
 
 ### What features does Django template include?
 - [x] **Production ready**: you can immediately deploy this to cloud such as Vercel, Railway.app, Render.com etc.
-- [x] Comes with a default landing page that you can modify, for more landing pages visit [Awesome landing pages](https://github.com/PaulleDemon/awesome-landing-pages).
+
 - [x] **Responsive design**: forget about making things responsive yourself, as it includes responsive `base.html`, you can extend from.
 - [x] **Pricing page**: Comes with a basic pricing page you can modify
 - [x] **Postgres DB ready**: Comes with postgres Db configuration for production
@@ -46,8 +37,7 @@ Consider buying me a coffee
 - [x] **Tailwind css:** setup for rapid development (note: the tailwind classes are prefixed with `tw-`, to differentiate them)
 - [ ] **CLI Wizard:** Customize your setup with CLI wizard (upcoming)
 
-### Demo
-Visit the demo site: [Django Demo website](https://django-saas-boilerplate.vercel.app/)
+
 
 For admin and login use.
 ```
@@ -59,10 +49,6 @@ demo123*
 
 For testing stripe check out test cards: https://docs.stripe.com/testing
 
-### Other templates
-**Basic non-saas website template:** [Django boilerplate](https://github.com/PaulleDemon/Django-website-template)
-
-**Free and opensource landing pages:** [Free landing pages](https://github.com/PaulleDemon/awesome-landing-pages)
 
 ### Table of contents
 
@@ -83,13 +69,6 @@ For testing stripe check out test cards: https://docs.stripe.com/testing
 - [Tutorials](#tutorials)
 
 ## Local development
-
-follow the below steps :
-1. Star the repo: https://github.com/PaulleDemon/Django-SAAS-Boilerplate
-   
-2. Clone the repo
-`git clone https://github.com/PaulleDemon/Django-SAAS-Boilerplate`
-
 3. Install python 3.8 or above.
 https://www.python.org/downloads/
 
@@ -172,11 +151,6 @@ To create a admin superuser use the following in terminal
 python manage.py createsuperuser
 ```
 
-### changing example.com to localhost/yourdomain
-If you are sending reset email you may notice its being sent from example.com, inorder to 
-change that you need to go to admin dashboard and from sites, change to your domain
-
-![site name](demo/images/site-change.png)
 
 ## Customizing
 
@@ -268,16 +242,6 @@ So convert the credential file to base64 using
 base64 firebase-cred.json > encoded.txt
 ```
 Now copy the contents of encoded.txt and paste it in `FIREBASE_ENCODED="wedde"` variable
-
-### Tutorials
-  #### Looking to learn about adding payment to Django?
-  Check out this blog about [adding payment to django](https://dev.to/paul_freeman/adding-payment-to-django-app-4cc9). This should give you an overview about adding payments to Django.
-
-  #### Adding ESP
-  Check out this blog on adding ESP to help you supercharge [transactional emails](https://dev.to/paul_freeman/adding-esp-to-supercharge-your-django-email-4jkp)
-
-  #### Deploying to Vercel
-  Check out this blog for vercel deployment help [Django vercel deployment](https://dev.to/paul_freeman/deploying-django-website-to-vercel-19ed)
 
 ## Images credits
 Images are taken from free to use sites such as 
